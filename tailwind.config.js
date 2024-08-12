@@ -14,9 +14,11 @@ export default {
         '88px': '88px',
         '352px': '352px',
         '260px': '260px',
+        '36%': '36%',
       },
       backgroundImage: {
-        'hortomática': "url('/inicio-img.png')"
+        'hortomática': "url('/inicio-img.png')",
+        'componentes': "url('/fundo_componentes.png')"
       },
       screens: {
         'mob': {'max': '1023px'},
