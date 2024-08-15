@@ -7,15 +7,13 @@ function Inicio() {
       <BarraFixa />
       <section className="flex items-center justify-center bg-[url('/inicio-img.png')] bg-cover bg-top w-full h-[272px] lg:bg-none">
 
-        <section className="bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10">
+        <section className="bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 ">
           <h1 className="text-white w-40 text-2xl font-bold text-center mr-2 mb-2">Conheça a Hortomatica</h1>
         </section>
 
         <section className="bg-purple-700 w-72 h-24 ml-5 mt-20 absolute z-0">
           <p className="text-purple-700">a</p>
         </section>
-
-        <p className=" w-72 font-medium leading-5 mob:hidden">Bem-vindo ao futuro sustentável da jardinagem urbana com a Hortomática, um inovador protótipo em Arduino que traz uma solução inteligente e automatizada para o cultivo de hortaliças em ambientes compactos. </p>
 
       </section>
 
