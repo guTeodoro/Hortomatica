@@ -105,24 +105,34 @@ function Funcionamento() {
             <p></p>
       </section>
 
-      <section className='bg-black text-white flex flex-col justify-center items-center p-10'>
-        <h2 className='font-bold text-2xl'>Explicação</h2>
-        <hr className='border-4 border-white w-full mt-3'/>
+      <section className='bg-black text-white flex flex-col justify-center items-center p-10 lg:flex-row-reverse lg:pb-16'>
+        
+        <section className='w-64 flex flex-col justify-center items-center lg:mb-2 lg:w-96'>
 
-        <section className='h-96'>
-          <p></p>
+          <h2 className='font-bold text-2xl lg:text-4xl lg:mr-52'>Explicação:</h2>
+          <hr className='border-4 border-white w-full mt-3'/>
+
+          <section className='h-72'>
+            <p></p>
+          </section>
+
+          <hr className='border-4 border-white w-full'/>
+
         </section>
 
-        <hr className='border-4 border-white w-full'/>
+        <section className='flex flex-col justify-center items-center'>
 
-        <h2 className='font-bold text-2xl mt-7'>Video de Exemplo</h2>
-        <hr className='border-4 border-white w-60 mt-5 mb-9'/>
+          <h2 className='font-bold text-2xl mt-7 lg:text-4xl lg:mr-72'>Video de Exemplo</h2>
+          <hr className='border-4 border-white w-52  mt-5 mb-9 lg:w-[444px] lg:mr-40'/>
 
-        <img src={iconVideo} alt="" className='mb-8 z-10'/>
+          <img src={iconVideo} alt="" className='mb-8 z-10 lg:w-[444px] lg:mr-40'/>
 
-        <section className="bg-white w-[284px] h-44 ml-8 mt-[568px] absolute z-0">
-          <p className="text-white">a</p>
+          <section className="bg-white w-[284px] h-44 ml-8 mt-32 absolute z-0 lg:w-[444px] lg:h-64 lg:mr-28 lg:mt-44">
+            <p className="text-white">a</p>
+          </section>
+
         </section>
+
       </section>
 
       <section className='bg-purple-700 text-purple-700 w-full h-2 mt-0 '>
