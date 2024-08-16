@@ -7,7 +7,7 @@ import iconVideo from "/video-icon.png"
 
 function Funcionamento() {
   return (
-    <div className=''>
+    <div>
       <BarraFixa />
       <section className="flex items-center justify-center bg-[url('/inicio-img.png')] bg-cover bg-top w-full h-[272px] lg:bg-none lg:flex-row">
 
@@ -97,11 +97,11 @@ function Funcionamento() {
 
       </section>
 
-      <section className='bg-purple-700 text-purple-700 w-full h-5 mt-0 lg:hidden '>
+      <section className='bg-purple-700 text-purple-700 w-full h-5 mt-0 '>
             <p></p>
       </section>
 
-      <section className='bg-green-400 text-green-400 w-full h-11 lg:h-7 '>
+      <section className='bg-green-400 text-green-400 w-full h-11 '>
             <p></p>
       </section>
 
@@ -123,11 +123,7 @@ function Funcionamento() {
         <section className='flex flex-col justify-center items-center'>
 
           <h2 className='font-bold text-2xl mt-7 lg:text-4xl lg:mr-72'>Video de Exemplo</h2>
-<<<<<<< HEAD
           <hr className='border-4 border-white w-52  mt-5 mb-9 lg:w-[444px] lg:mr-40'/>
-=======
-          <hr className='border-4 border-white w-52 mt-5 mb-9 lg:w-[444px] lg:mr-40'/>
->>>>>>> d444a0a316cab58c11a911ed2ab73add4a8dbfe0
 
           <img src={iconVideo} alt="" className='mb-8 z-10 lg:w-[444px] lg:mr-40'/>
 
