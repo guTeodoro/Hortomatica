@@ -14,7 +14,6 @@ export default function App() {
         <Route path="/funcionamento" element={<Funcionamento />}/>
         <Route path="/referencias" element={<Referencias />}/>
         <Route path="/integrantes" element={<Integrantes />}/>
-        <Route path="*" element={<h1>Not Found</h1>}/>
       </Routes>
     </BrowserRouter>
   )
