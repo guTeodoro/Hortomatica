@@ -21,13 +21,13 @@ function BarraFixa() {
                     {aberto ? (
                         <div className="block justify-center items-center bg-black z-30 lg:hidden pt-6  border-purple-700 ">
                             <p className="text-white font-bold text-4xl w-6 ml-auto mr-4">X</p>          
-                            <div className=" block justify-center items-center bg-black z-50 lg:hidden pt-0 border-l-4 border-b-4 border-t-8 border-r-4 border-t-purple-700 border-x-green-400 border-b-green-400 px-0 pl-0 pb-5 font-semibold ">
+                            <div className=" block justify-center items-center bg-black z-50 lg:hidden pt-0 border-l-4 border-b-4 border-t-8 border-t-purple-700 border-l-green-400 border-b-green-400 px-0 pl-0 pb-[2000px] font-semibold ">
                                 <div className="border-b-8 border-green-400 w-full"></div>
-                                <hr className="border-2 border-white w-28 mb-8 mt-4 ml-10 mr-2 " />
-                                <li className="text-white text-sm mt-1 ml-14 "><Link to={'/integrantes'} >Integrantes</Link></li>
-                                <li className="text-white text-sm mt-4 ml-7 "><Link to={'/funcionamento'} >Funcionamento</Link></li>
-                                <li className="text-white text-sm mt-4 ml-9 "><Link to={'/componentes'} >Componentes</Link></li>
-                                <li className="text-white text-sm mt-4 ml-14 "><Link to={'/referencias'} >Referencias</Link></li>
+                                <hr className="border-2 border-white w-36 mb-8 mt-4 ml-10 mr-2 " />
+                                <li className="text-white text-md mt-1 ml-14 "><Link to={'/integrantes'} >Integrantes</Link></li>
+                                <li className="text-white text-md mt-4 ml-7 "><Link to={'/funcionamento'} >Funcionamento</Link></li>
+                                <li className="text-white text-md mt-4 ml-9 "><Link to={'/componentes'} >Componentes</Link></li>
+                                <li className="text-white text-md mt-4 ml-14 "><Link to={'/referencias'} >Referencias</Link></li>
                             </div>
                         </div>
                     ):(

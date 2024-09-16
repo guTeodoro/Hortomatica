@@ -19,13 +19,32 @@ function Componentes() {
         <BarraFixa />
 
       <section className='flex items-center justify-center bg-[url("/fundo_componentes.png")] bg-cover bg-top w-full h-[272px] lg:bg-none'>
-            <section className='bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 lg:h-28 lg:mt-40 lg:w-96 lg:mr-72 lg:ml-10'>
-                  <h1 className='text-white w-44 text-2xl font-bold text-center mr-2 mb-2 lg:text-4xl lg:mr-20'>Componentes:</h1>
+
+            <section className="flex">
+                  <section className='bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 lg:h-28 lg:mt-0 lg:w-96 lg:mr-72 lg:ml-10 lg:hidden'>
+                        <h1 className='text-white w-44 text-2xl font-bold text-center mr-2 mb-2 lg:text-4xl lg:mr-20'>Componentes:</h1>
+                  </section>
+
+                  <section className="bg-purple-700 w-72 h-24 ml-3 mt-16 absolute z-0 lg:h-28 lg:mt-4 lg:mr-[754px] lg:w-96 lg:ml-14 lg:hidden">
+                        <p className="text-purple-700">a</p>
+                  </section>
             </section>
 
-            <section className="bg-purple-700 w-72 h-24 ml-5 mt-20 absolute z-0 lg:h-28 lg:mt-48 lg:mr-[754px] lg:w-96 lg:ml-20">
-                  <p className="text-purple-700">a</p>
+            <section className="block mt-96 justify-center items-center mob:hidden">
+                  <section className="flex">
+                        <section className='bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 lg:h-28 lg:mt-0 lg:w-96 lg:mr-72 lg:ml-10'>
+                              <h1 className='text-white w-44 text-2xl font-bold text-center mr-2 mb-2 lg:text-4xl lg:mr-20'>Componentes:</h1>
+                        </section>
+
+                        <section className="bg-purple-700 w-72 h-24 ml-5 mt-20 absolute z-0 lg:h-28 lg:mt-4 lg:mr-[754px] lg:w-96 lg:ml-14">
+                              <p className="text-purple-700">a</p>
+                        </section>
+                  </section>
+                  <section className='mob:hidden'>
+            <           li className='w-[466px] mb-10 font-bold leading-5 mt-24 ml-10 text-xl'>Placa Arduino Uno: Serve para ligar a parte física com a digital;</li>
+                  </section>
             </section>
+            
 
             <section className='z-10'>
                   <img src="/placa-arduino.png" alt="" className='mob:hidden ml-0 mr-28 z-20 mb-16 border-2 border-black mt-[488px] w-[352px]' />
@@ -37,11 +56,9 @@ function Componentes() {
 
       </section>
 
-      <section className='mob:hidden'>
-            <li className='w-[466px] mb-10 font-bold leading-5 mt-24 ml-36 text-xl'>Placa Arduino Uno: Serve para ligar a parte física com a digital;</li>
-      </section>
 
-      <section className='bg-purple-700 text-purple-700 w-full h-3 mt-40 mob:hidden'>
+
+      <section className='bg-purple-700 text-purple-700 w-full h-3 mt-96 mob:hidden'>
             <p></p>
       </section>
 

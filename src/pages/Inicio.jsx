@@ -6,13 +6,25 @@ function Inicio() {
     <div>
       <BarraFixa />
       <section className="flex items-center justify-center bg-[url('/inicio-img.png')] bg-cover bg-top w-full h-[272px] lg:bg-none">
+            <section className="bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 lg:h-28 lg:mt-40 lg:w-96 lg:mr-0 lg:ml-10 lg:hidden ">
+              <h1 className="text-white w-40 text-2xl font-bold text-center mr-2 mb-2 lg:text-4xl lg:w-72">Conheça a Hortomática</h1>
+            </section>
 
-        <section className="bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 lg:h-28 lg:mt-40 lg:w-96 lg:mr-40 lg:ml-10 ">
-          <h1 className="text-white w-40 text-2xl font-bold text-center mr-2 mb-2 lg:text-4xl lg:w-72">Conheça a Hortomática</h1>
-        </section>
+            <section className="bg-purple-700 w-72 h-24 ml-5 mt-20 absolute z-0 lg:h-28 lg:mt-44 lg:mr-[722px] lg:w-96 lg:ml-14 lg:hidden">
+              <p className="text-purple-700">a</p>
+            </section>
 
-        <section className="bg-purple-700 w-72 h-24 ml-5 mt-20 absolute z-0 lg:h-28 lg:mt-48 lg:mr-[722px] lg:w-96 lg:ml-20">
-          <p className="text-purple-700">a</p>
+        <section className="block mt-96 justify-center items-center mob:hidden">
+          <section className="flex">
+            <section className="bg-black h-24 flex items-center justify-center w-72 mt-14 relative z-10 lg:h-28 lg:mt-40 lg:w-96 lg:mr-0 lg:ml-10 ">
+              <h1 className="text-white w-40 text-2xl font-bold text-center mr-2 mb-2 lg:text-4xl lg:w-72">Conheça a Hortomática</h1>
+            </section>
+
+            <section className="bg-purple-700 w-72 h-24 ml-5 mt-20 absolute z-0 lg:h-28 lg:mt-44 lg:mr-[722px] lg:w-96 lg:ml-14">
+              <p className="text-purple-700">a</p>
+            </section>
+          </section>
+          <p className=" text-black font-bold w-[464px] mob:hidden mt-24 ml-0 text-center text-2xl mr-28">Bem-vindo ao futuro sustentável da jardinagem urbana com a Hortomática, um inovador protótipo em Arduino que traz uma solução inteligente e automatizada para o cultivo de hortaliças em ambientes compactos. </p>
         </section>
 
         <hr className="mob:hidden border-2 h-96 border-black mr-32 mt-[522px]"/>
@@ -25,14 +37,14 @@ function Inicio() {
 
       </section>
 
-      <p className=" text-black font-bold w-[464px] mob:hidden mt-24 ml-28 text-center text-2xl">Bem-vindo ao futuro sustentável da jardinagem urbana com a Hortomática, um inovador protótipo em Arduino que traz uma solução inteligente e automatizada para o cultivo de hortaliças em ambientes compactos. </p>
+      
 
       <section className="text-white bg-black pt-8 pb-10 text-center flex flex-col justify-center items-center lg:hidden">
         <hr className="mb-6 w-60 border-4" />
         <p className=" w-72 font-medium leading-5">Bem-vindo ao futuro sustentável da jardinagem urbana com a Hortomática, um inovador protótipo em Arduino que traz uma solução inteligente e automatizada para o cultivo de hortaliças em ambientes compactos. </p>
       </section>
 
-      <section className="bg-green-400 h-[72px] flex flex-col justify-center items-center border-b-8 border-black lg:mt-20">
+      <section className="bg-green-400 h-[72px] flex flex-col justify-center items-center border-b-8 border-black lg:mt-[398px]">
         <hr className="border-2 w-full border-black mt-6"/>
         <hr className="border-2 w-full border-black mt-2"/>
         <hr className="border-4 w-full border-black mt-1"/>
