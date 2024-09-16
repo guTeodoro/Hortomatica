@@ -9,10 +9,10 @@ function BarraFixa() {
                 <a href="/" className="flex justify-center items-center ml-0 mt-1 "><img src={iconHortomatica} alt="Voltar ao início" className="w-10 mt-7 z-20 lg:w-16" /> <h1 className="text-white ml-2 mt-3 text-2xl font-semibold lg:text-5xl">Hortomática</h1></a>
                 <img src={menuburger} alt="" srcset="" className="w-9 h-9 mt-6 ml-[36%] lg:hidden" />
                 <li><Link to={'/'}>Inicio</Link></li>
-                <li><Link to={'/componentes'} className="text-white mob:hidden ml-12 font-semibold mt-10">Componentes</Link></li>
-                <li><Link to={'/referencias'} className="text-white mob:hidden ml-12 font-semibold mt-10">Referencias</Link></li>
-                <li><Link to={'/integrantes'} className="text-white mob:hidden ml-[32%] font-semibold mt-10">Integrantes</Link></li>
-                <li><Link to={'/funcionamento'} className="text-white mob:hidden ml-12 font-semibold mt-10">Funcionamento</Link></li>
+                <li className="text-white mob:hidden ml-32% font-semibold mt-10"><Link to={'/integrantes'} >Integrantes</Link></li>
+                <li className="text-white mob:hidden ml-10 font-semibold mt-10"><Link to={'/funcionamento'} >Funcionamento</Link></li>
+                <li className="text-white mob:hidden ml-10 font-semibold mt-10"><Link to={'/componentes'} >Componentes</Link></li>
+                <li className="text-white mob:hidden ml-10 font-semibold mt-10"><Link to={'/referencias'} >Referencias</Link></li>
             </div>
         </div>
     )
