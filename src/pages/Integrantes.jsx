@@ -1,6 +1,9 @@
 import React from 'react'
 import BarraFixa from '../components/BarraFixa'
 import IconePerfil from "/perfil-icon.png"
+import thi from "/thi.png"
+import gu from "/gu.png"
+import gp from "/gp.png"
 
 function Integrantes() {
   return (
@@ -23,18 +26,18 @@ function Integrantes() {
 
       </section>
 
-      <section className='bg-black flex flex-col justify-center items-center pb-12 lg:flex-row lg:pb-40 lg:mt-14'>
+      <section className='bg-black flex flex-col justify-center items-center pb-12 lg:flex-row lg:pb-96 lg:mt-14'>
         <hr className='border-4 border-white w-60 mt-8 lg:hidden' />
         <section className='text-white flex items-center w-80 ml-6 lg:flex-col'>
-          <img src={IconePerfil} alt="" className='mt-11 lg:w-52' />
+          <img src={thi} alt="" className='mt-11 lg:w-52' />
           <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl'>Thiago Teodoro</p>
         </section>
         <section className='text-white flex items-center w-80 ml-6 lg:flex-col'>
-          <img src={IconePerfil} alt="" className='mt-10 lg:w-52' />
+          <img src={gp} alt="" className='mt-10 lg:w-52' />
           <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl'>Gabriel Pereira</p>
         </section>
         <section className='text-white flex items-center w-80 ml-6 lg:flex-col'>
-          <img src={IconePerfil} alt="" className='mt-10 lg:w-52' />
+          <img src={gu} alt="" className='mt-10 lg:w-52' />
           <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl'>Gustavo Teodoro</p>
         </section>
       </section>
