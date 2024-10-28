@@ -2,12 +2,12 @@ import React from 'react'
 import BarraFixa from '../components/BarraFixa'
 import placaArduino from '/placa-arduino.png'
 import jumpers from '/jumpers.png'
-import fonteAlimentacao from '/fonte-alimentacao.png'
+import lampadaI from '/LI.webp'
 import moduloRele from '/modulo-rele.png'
 import fonteChaveada from '/fonte-chaveada.png'
-import adaptadorFemea from '/adaptador-femea.png'
+import LUV from '/UV.webp'
 import sensorUmidade from '/sensor-de-umidade.png'
-import miniBomba from '/mini-bomba-dagua.png'
+import miniBomba from '/mini-bomba.jpg'
 import mangueiraAquario from '/mangueira-aquario.png'
 import fioParalelo from '/fio-paralelo.png'
 import fundoComponentes from '/fundo_componentes.png'
@@ -112,13 +112,13 @@ function Componentes() {
 
       <section className='bg-black text-white flex flex-col justify-center items-center pt-9 lg:bg-white lg:pb-8 lg:flex-row'>
             <hr className='border-4 border-white w-56 mb-9 lg:hidden' />
-            <li className='w-64 mb-10 font-bold leading-5 lg:text-black lg:w-[466px] lg:mr-0 lg:text-xl'>Fonte de Alimentação Arduino 9VDC 1A: É utilizado para alimentar o Arduino Uno</li>
+            <li className='w-64 mb-10 font-bold leading-5 lg:text-black lg:w-[466px] lg:mr-0 lg:text-xl'>Lâmpada Incandescente: Serve para aquecer o solo</li>
             
             <section>
-                  <img src={fonteAlimentacao} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-14 lg:ml-64' />
+                  <img src={lampadaI} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:h-[250px] lg:mt-12 lg:mr-14 lg:ml-64' />
             </section>
 
-            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-16 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[684px] lg:mt-12">
+            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-16 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[720px] lg:mt-12">
                   <p className="text-purple-700">a</p>
             </section>
             
@@ -142,7 +142,7 @@ function Componentes() {
 
       <section className='bg-white text-black flex flex-col justify-center items-center pt-9 lg:bg-black lg:pb-8 lg:flex-row-reverse '>
             <hr className='border-4 border-black w-56 mb-9 lg:hidden' />
-            <li className='w-64 mb-10 font-bold leading-5 lg:text-white lg:w-[466px] lg:ml-12 lg:text-xl'>Módulo Relé 5V 10A: Acionar e desacionar cargas</li>
+            <li className='w-64 mb-10 font-bold leading-5 lg:text-white lg:w-[466px] lg:ml-12 lg:text-xl'>Módulo Relé 5V: Acionar e desacionar cargas</li>
             
             <section>
                   <img src={moduloRele} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-64 lg:ml-14' />
@@ -170,7 +170,7 @@ function Componentes() {
                   <img src={fonteChaveada} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-14 lg:ml-64' />
             </section>
 
-            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-28 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[684px] lg:mt-12">
+            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-28 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[720px] lg:mt-12">
                   <p className="text-purple-700">a</p>
             </section>
             
@@ -194,10 +194,10 @@ function Componentes() {
 
       <section className='bg-white text-black flex flex-col justify-center items-center pt-9 lg:bg-black lg:pb-8 lg:flex-row-reverse'>
             <hr className='border-4 border-black w-56 mb-9 lg:hidden' />
-            <li className='w-64 mb-10 font-bold leading-5 lg:text-white lg:w-[466px] lg:ml-12 lg:text-xl'>Adaptador Fêmea com conexões para plug P4: Serve para fazer uma ligação com a Fonte Chaveada. P4 é uma fonte que converte tensões</li>
+            <li className='w-64 mb-10 font-bold leading-5 lg:text-white lg:w-[466px] lg:ml-12 lg:text-xl'>Lâmpada UV: Serve para ajudar a planta a fazer a fotossíntese</li>
             
             <section>
-                  <img src={adaptadorFemea} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-64 lg:ml-14'/>
+                  <img src={LUV} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg: h-[250px] lg:mt-12 lg:mr-64 lg:ml-14'/>
             </section>
 
             <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-40 absolute z-0 lg:w-[352px] lg:h-60 lg:mr-[644px] lg:mt-12">
@@ -222,7 +222,7 @@ function Componentes() {
                   <img src={sensorUmidade} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-[352px] lg:ml-64'/>
             </section>
 
-            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-36 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[684px] lg:mt-12">
+            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-36 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[654px] lg:mt-12">
                   <p className="text-purple-700">a</p>
             </section>
             
@@ -252,7 +252,7 @@ function Componentes() {
                   <img src={miniBomba} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-64 lg:ml-14' />
             </section>
 
-            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-40 absolute z-0 lg:w-[352px] lg:h-60 lg:mr-[644px] lg:mt-12">
+            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-40 absolute z-0 lg:w-[352px] lg:h-60 lg:mr-[682px] lg:mt-12">
                   <p className="text-purple-700">a</p>
             </section>
 
@@ -274,7 +274,7 @@ function Componentes() {
                   <img src={mangueiraAquario} alt="" className='w-[272px] mr-5 relative z-10 mb-16 border-2 border-black lg:w-[352px] lg:mt-12 lg:mr-14 lg:ml-64' />
             </section>
 
-            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-16 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[684px] lg:mt-12">
+            <section className="bg-purple-700 w-[272px] h-44 ml-8 mt-16 absolute z-0 lg:w-[352px] lg:h-60 lg:ml-[720px] lg:mt-12">
                   <p className="text-purple-700">a</p>
             </section>
             
