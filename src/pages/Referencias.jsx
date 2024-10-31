@@ -45,9 +45,9 @@ function Referencias() {
       <section className='flex flex-col justify-center items-center pb-24 mt-10 lg:justify-start lg:items-start lg:pb-16'>
         <h2 className='text-2xl font-bold lg:mb-10 lg:text-4xl lg:ml-40'>Referências:</h2>
         <hr className='border-4 border-black w-60 mt-5 mb-8 lg:hidden' />
-        <a className='text-blue-500 font-bold w-72 mb-14 lg:mb-4 lg:w-[856px] lg:ml-40' href=" https://revistas.pucsp.br/risus/article/view/50810">https://revistas.pucsp.br/risus/article/view/50810</a>
-        <a className='text-blue-500 font-bold w-72 mb-14 lg:mb-4 lg:w-[856px] lg:ml-40' href="https://pesquisafatec.com.br/ojs/index.php/efatec/article/view/291">https://pesquisafatec.com.br/ojs/index.php/efatec/article/view/291</a>
-        <a className='text-blue-500 font-bold w-72 lg:mb-4 lg:w-[856px] lg:ml-40' href="https://repositorio.ufersa.edu.br/server/api/core/bitstreams/2db96d78-2e4f-4fc1-b7a8-4f2bf29491ab/content">https://repositorio.ufersa.edu.br/server/api/core/bitstreams/2db96d78-2e4f-4fc1-b7a8-4f2bf29491ab/content</a>
+        <a className='text-blue-500 font-bold w-72 mb-14 lg:mb-4 lg:ml-40 text-wrap' href=" https://revistas.pucsp.br/risus/article/view/50810">Puc</a>
+        <a className='text-blue-500 font-bold w-72 mb-14 lg:mb-4 lg:ml-40' href="https://pesquisafatec.com.br/ojs/index.php/efatec/article/view/291">Pesquisa Fatec</a>
+        <a className='text-blue-500 font-bold w-72 lg:mb-4 lg:ml-40' href="https://repositorio.ufersa.edu.br/server/api/core/bitstreams/2db96d78-2e4f-4fc1-b7a8-4f2bf29491ab/content">UFRSA</a>
       </section>
 
     </div>
