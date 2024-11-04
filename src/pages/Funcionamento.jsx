@@ -4,6 +4,7 @@ import imgCelular from '/img-celular.png'
 import BarraFixa from '../components/BarraFixa'
 import imgInicio from "/inicio-img.png"
 import iconVideo from "/video-icon.png"
+import horta from "/horta.webp"
 
 function Funcionamento() {
   return (
@@ -34,9 +35,9 @@ function Funcionamento() {
 
         <hr className='border-2 h-[422px] border-black mr-32 mt-[566px] mob:hidden'/>
 
-        <img src={imgInicio} alt="" className="mob:hidden w-[422px] mr-0 mt-[600px] z-10 border-2 border-black"/>
+        <img src={horta} alt="" className="mob:hidden w-[400px] h-[364px] mr-0 mt-[500px] z-10 border-2 border-black"/>
 
-        <section className="mob:hidden bg-purple-700 w-[422px] h-[352px] ml-[775px] mt-[664px] absolute z-0">
+        <section className="mob:hidden bg-purple-700 w-[422px] h-[352px] ml-[775px] mt-[584px] absolute z-0">
           <p className="text-purple-700">a</p>
         </section>
 
