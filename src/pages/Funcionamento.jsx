@@ -4,7 +4,8 @@ import imgCelular from '/img-celular.png'
 import BarraFixa from '../components/BarraFixa'
 import imgInicio from "/inicio-img.png"
 import iconVideo from "/video-icon.png"
-import horta from "/horta.webp"
+import horta from "/horta.png"
+import ReactPlayer from 'react-player';
 
 function Funcionamento() {
   return (
@@ -61,7 +62,7 @@ function Funcionamento() {
         
         <section className='text-white bg-black w-72 py-9 pb-10 flex justify-center items-center z-10 mb-20 lg:w-[454px] lg:ml-40 lg:py-14 lg:mt-12'>
           
-          <p className='w-60 font-bold leading-5 lg:w-80'>O usuário registra o tipo de hortaliça que está cultivando por meio de um aplicativo intuitivo, disponível para dispositivos móveis. Com base nas necessidades específicas da planta, a Hortomática ajusta a irrigação automaticamente. Quando o sensor detecta que a umidade está abaixo do ideal, o sistema de irrigação é ativado, garantindo que suas hortaliças estejam sempre bem cuidadas. </p>
+          <p className='w-60 font-bold leading-5 lg:w-80'>O usuário seleciona o tipo de hortaliça que está cultivando por meio de um aplicativo intuitivo, disponível para dispositivos móveis. Com base nas necessidades específicas da planta, a Hortomática ajusta a irrigação automaticamente. Quando o sensor detecta que a umidade está abaixo do ideal, o sistema de irrigação é ativado, garantindo que suas hortaliças estejam sempre bem cuidadas. </p>
         
         </section>
 
@@ -124,8 +125,8 @@ function Funcionamento() {
           <h2 className='font-bold text-2xl lg:text-4xl lg:mr-52'>Explicação:</h2>
           <hr className='border-4 border-white w-full mt-3'/>
 
-          <section className='h-72'>
-            <p></p>
+          <section className='h-72 py-10 font-bold'>
+            <p>No video nós mostramos e testamos as funcionalidades em tempo real e, também, fazemos uma demonstação de como o aplicativo funciona, através dos botões de seleção de planta.</p>
           </section>
 
           <hr className='border-4 border-white w-full'/>
@@ -137,7 +138,7 @@ function Funcionamento() {
           <h2 className='font-bold text-2xl mt-7 lg:text-4xl lg:mr-72'>Video de Exemplo</h2>
           <hr className='border-4 border-white w-52  mt-5 mb-9 lg:w-[444px] lg:mr-40'/>
 
-          <img src={iconVideo} alt="" className='mb-8 z-10 lg:w-[444px] lg:mr-40'/>
+          <iframe className='mb-8 z-10 lg:w-[444px] lg:h-64 lg:mr-40 border-white border-4 mob:h-44' src="https://www.youtube.com/embed/l9IHXtjURSI?si=9SGgWdqr0fgDaSKh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
 
           <section className="bg-white w-[284px] h-44 ml-8 mt-32 absolute z-0 lg:w-[444px] lg:h-64 lg:mr-28 lg:mt-44">
             <p className="text-white">a</p>

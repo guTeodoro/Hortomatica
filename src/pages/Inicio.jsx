@@ -1,6 +1,6 @@
 import BarraFixa from "../components/BarraFixa"
 import imgInicio from "/inicio-img.png"
-import horta from "/horta.webp"
+import horta from "/horta.png"
 import iconVideo from "/video-icon.png"
 
 function Inicio() {

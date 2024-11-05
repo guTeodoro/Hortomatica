@@ -21,22 +21,22 @@ function Integrantes() {
 
       <section className='mob:hidden flex flex-col justify-center items-center text-center mt-44'>
 
-        <h2 className='mob:hidden text-white text-4xl ml-6 font-bold'>Integrantes:</h2>
-        <hr className='mob:hidden border-4 border-white w-56 ml-8 mt-8'/>
+        <h2 className='mob:hidden text-white text-4xl ml-0 font-bold'>Integrantes:</h2>
+        <hr className='mob:hidden border-4 border-white w-56 ml-0 mt-8'/>
 
       </section>
 
       <section className='bg-black flex flex-col justify-center items-center pb-12 lg:flex-row lg:pb-96 lg:mt-14'>
         <hr className='border-4 border-white w-60 mt-8 lg:hidden' />
-        <section className='text-white flex items-center w-80 ml-6 lg:flex-col '>
+        <section className='text-white flex items-center w-40  ml-0 lg:flex-col mr-28 lg:w-80 '>
           <img src={thi} alt="" className='mt-11 lg:w-52 rounded-[50%] border-white border-8' />
-          <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl'>Thiago Teodoro</p>
+          <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl text-xl'>Thiago Teodoro</p>
         </section>
-        <section className='text-white flex items-center w-80 ml-6 lg:flex-col '>
+        <section className='text-white flex items-center w-40 ml-0 mr-28 lg:flex-col lg:w-80 '>
           <img src={gp} alt="" className='mt-10 lg:w-52 rounded-[50%] border-white border-8' />
           <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl'>Gabriel Pereira</p>
         </section>
-        <section className='text-white flex items-center w-80 ml-6 lg:flex-col'>
+        <section className='text-white flex items-center w-40 ml-0 mr-28 lg:flex-col lg:w-80 lg:mr-0'>
           <img src={gu} alt="" className='mt-10 lg:w-52 rounded-[50%] border-white border-8' />
           <p className='mt-10 ml-8 font-semibold lg:ml-0 lg:text-3xl'>Gustavo Teodoro</p>
         </section>
