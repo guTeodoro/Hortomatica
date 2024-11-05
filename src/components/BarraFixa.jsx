@@ -14,7 +14,7 @@ function BarraFixa() {
     return (
         <div className="border-b-8 border-green-400 fixed top-0 left-0 right-0 z-20" >
             <div className="bg-black flex h-[72px] border-b-8 border-purple-700 z-30 lg:h-24 list-none">
-                <a href="/" className="flex justify-center items-center ml-0 mt-1 absolute"><img src={iconHortomatica} alt="Voltar ao início" className="w-10 mt-7 z-20 lg:w-16" /> <h1 className="text-white ml-2 mt-3 text-2xl font-semibold lg:text-5xl z-40">Hortomática</h1></a>
+                <a href="/" className="flex justify-center items-center ml-0 mt-1 absolute"><img src={iconHortomatica} alt="Voltar ao início" className="w-10 mt-7 z-20 lg:w-16" /> <h1 className="text-white ml-2 mt-3 text-2xl font-semibold lg:text-5xl z-50">Hortomática</h1></a>
                 <li><Link to={'/'}>Inicio</Link></li>
 
                 <button className="relative lg:hidden ml-auto z-50" onClick={ativarMenu}>

@@ -73,9 +73,9 @@ function Inicio() {
           <h2 className='lg:font-bold text-4xl lg:text-4xl lg:mr-0'>Jogo</h2>
           <hr className='border-4 border-black lg:border-white w-52  mt-5 mb-9 lg:w-[580px] lg:mr-0'/>
 
-          <img src={iconVideo} alt="" className='mb-8 z-10 lg:w-[600px] lg:mr-0 lg:mt-[40px]'/>
+          <iframe className='mb-8 z-10 lg:w-[600px] lg:h-[350px] h-[180px] lg:mr-0 lg:mt-[40px]' src="https://www.youtube.com/embed/PeDrzKCdhag?si=XSJbO0usYwWb-Y67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          <section className="bg-black lg:bg-white w-[284px] h-44 ml-8 mt-32 absolute z-0 lg:w-[680px] lg:h-[420px] lg:mr-0 lg:ml-0 lg:mt-28">
+          <section className="bg-black lg:bg-white w-[284px] h-44 ml-12 mt-32 absolute z-0 lg:w-[680px] lg:h-[420px] lg:mr-0 lg:ml-0 lg:mt-28">
             <p className="text-black"></p>
           </section>
 
